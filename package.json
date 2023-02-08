@@ -30,6 +30,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "nodemon": "^1.18.4",
     "prettier": "^2.8.3",
-    "swagger-autogen": "^2.22.0"
+    "swagger-autogen": "^2.23.0"
   }
 }
