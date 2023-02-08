@@ -5,12 +5,19 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://cse341-59zh.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "https"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/contacts/": {
       "get": {
         "description": "",
@@ -143,13 +150,6 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "parameters": [],
-        "responses": {}
       }
     }
   }
